@@ -12,9 +12,9 @@ function consultaCep(){
             console.log(response);
             $("#logradouro").html(response.logradouro);
             //document.getElementById("logradouro").innerHTML = response.logradouro;
-            document.getElementById("bairro").innerHTML = response.bairro;
-            document.getElementById("localidade").innerHTML = response.localidade;
-            document.getElementById("uf").innerHTML = response.uf;
+            //document.getElementById("bairro").innerHTML = response.bairro;
+            //document.getElementById("localidade").innerHTML = response.localidade;
+            //document.getElementById("uf").innerHTML = response.uf;
             //alert(response.bairro);            
         }
     })
